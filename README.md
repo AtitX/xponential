@@ -22,7 +22,7 @@ terraform init -backend-config=../backend.conf -backend-config="key=state/terraf
 
 ## Deploy
 
-The main directory to run Terraform is in `environment/dev` and `environment/prod` directory. Once you change directory into it and set the environment variables, you can run the following commmands:
+The main directory to run Terraform is in `environment/` directory. Once you change directory into it and set the environment variables, you can run the following commmands:
 
 ### Initialize Terraform configuration
 
