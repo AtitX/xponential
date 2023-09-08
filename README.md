@@ -9,9 +9,9 @@ terraform plan
 terraform apply
 ```
 
-Update S3 bucket name in `backend.conf`
+Update S3 bucket name in [`backend.conf`](https://github.com/AtitX/xponential/blob/7831b88680e3fdf5fa3dc5886318d9edbfb25dc1/backend.conf#L1)
 
-Uncomment the remote backend code block
+Uncomment the [remote backend code block](https://github.com/AtitX/xponential/blob/7831b88680e3fdf5fa3dc5886318d9edbfb25dc1/backend/main.tf#L3)
 
 Reinitialize our S3 bucket as our new remote state backend. 
 Terraform will ask if this is the intended action, type `yes` to proceed.
